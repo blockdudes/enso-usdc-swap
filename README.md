@@ -1,6 +1,6 @@
 # USDC Swap
 
-This repo is showcase that we know how to use Enso Finance Bundler
+This repo is a simple showcase that we know how to use Enso Finance Bundler, by swapping USDC to alUSD on mainnet fork 
 
 ## Setup
 
