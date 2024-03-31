@@ -1,0 +1,23 @@
+{
+  "name": "enso-usdc-swap",
+  "version": "1.0.0",
+  "description": "Swapping USDC to alUSD",
+  "scripts": {
+    "install-foundry": "node ./node_modules/@foundry-rs/easy-foundryup/dist/src/foundryup.js && foundryup",
+    "fork": "anvil --fork-url https://rpc.ankr.com/eth",
+    "swapUSDC": "node src/swapUSDC.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@safe-global/protocol-kit": "^1.2.0",
+    "@safe-global/safe-core-sdk-types": "^2.2.0",
+    "@zerodevapp/sdk": "^3.2.10",
+    "axios": "^1.4.0",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@foundry-rs/easy-foundryup": "^0.1.3"
+  }
+}
